@@ -1,4 +1,4 @@
-# MarylandEnergyRebates
+# Maryland Energy Administration Incentive Program Analysis
 Short analysis of Maryland Energy Administration data on a statewide consumption incentive program.
 
 The Maryland Energy Administration (MEA) publishes data surrounding state-wide initiatives aimed at reducing energy consumption - this dataset was made available via data.gov. 
@@ -22,11 +22,19 @@ Let's take a look at the three numerical data points. Using a 'describe' call, w
 # Regression
 Can MEA contribution and total project cost be used to predict savings in kwh? 
 Fit a linear regression model after splitting the dataset 75/25 into train/test holdouts. 
+
 Model Coefficients: 
+  
   Contribution: -7.541044425177233e-08
+ 
   Project Cost: 0.0007000140248282455
+
+Performance Metrics:
+
 MAE: 0.00022005286360234918
+
 MSE: 7.448671681375386e-08
+
 MAPE: 0.89%
 
 So, total project cost appears to be positively correlated with reduction in elictricity consumption, while MEA contribution seems to have a smaller effect.  
