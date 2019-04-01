@@ -43,7 +43,7 @@ plt.show()
 plt.scatter(x=health['Cost'], y=health['Contribution'])
 plt.xlabel('Project Cost $')
 plt.ylabel('MEA Contribution $')
-plt.title('Savings vs. MEA Contribution')
+plt.title('MEA Contribution vs. Project Cost')
 plt.show()
 
 
