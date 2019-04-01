@@ -37,4 +37,4 @@ Fit a linear regression model after splitting the dataset 75/25 into train/test 
 
   *MAPE: 0.89%
 
-So, total project cost appears to be positively correlated with reduction in elictricity consumption, while MEA contribution seems to have a smaller effect.  
+So, total project cost appears to be positively correlated with reduction in electricity consumption, while MEA contribution seems to have a smaller effect.  
